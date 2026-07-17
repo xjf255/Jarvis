@@ -1,0 +1,6 @@
+openai-whisper
+webrtcvad
+sounddevice
+soundfile
+tts
+torch
