@@ -1,10 +1,10 @@
 import collections
 import queue
 import sys
-
 import numpy as np
 import sounddevice as sd
 import webrtcvad
+from app.utils.stt import transcribe_audio
 
 # --- Configuración ---
 SAMPLE_RATE = 16000          # webrtcvad soporta 8000, 16000, 32000, 48000
@@ -82,8 +82,9 @@ def process_segment(pcm_audio):
     """Aquí es donde conectas Whisper + Claude + XTTS."""
     audio_np = np.frombuffer(pcm_audio, dtype=np.int16).astype(np.float32) / 32768.0
     print(f"Segmento capturado: {len(audio_np) / SAMPLE_RATE:.2f} segundos")
-
     # TODO: 1. Pasar audio_np a Whisper -> texto
+    transcription = transcribe_audio(audio_np)
+    print(f"Transcripción: {transcription}")
     # TODO: 2. Pasar texto a la API de Claude -> respuesta
     # TODO: 3. Pasar respuesta a XTTS -> audio de salida
     # TODO: 4. Reproducir con sounddevice
