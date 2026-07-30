@@ -1,0 +1,488 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Configuración del entorno y dependencias": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350285715
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350296327
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350654510
+      }
+    ],
+    "2.1 Crear `app/utils/llm.py` con la clase `LLMClient`": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350286285
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350657736
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350868870
+      }
+    ],
+    "3. Checkpoint — Verificar módulo LLM": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350286647
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350887701
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350946058
+      }
+    ],
+    "4.1 Añadir carga de configuración con `python-dotenv`": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350286778
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350949539
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351031117
+      }
+    ],
+    "4.2 Implementar el enum `PipelineState` y el bucle de wake word": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350286928
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351034281
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351312799
+      }
+    ],
+    "4.3 Implementar la transición Estado_Escuchando → Estado_Procesando": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350287066
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351319450
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351458490
+      }
+    ],
+    "4.4 Implementar Estado_Procesando: LLM + TTS": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350287224
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351461882
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351464986
+      }
+    ],
+    "4.5 Implementar Estado_Respondiendo: reproducción de audio": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350287376
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351467928
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351470722
+      }
+    ],
+    "4.6 Implementar manejo de errores recuperables y `KeyboardInterrupt`": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350287558
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351474777
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351573547
+      }
+    ],
+    "5. Checkpoint — Verificar pipeline completo": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350287689
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351577135
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352262621
+      }
+    ],
+    "7. Checkpoint final — Verificar todo el sistema base": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350287822
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352369558
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352556131
+      }
+    ],
+    "8. Actualizar dependencias para el Sistema de Herramientas": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350288034
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352559474
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352644198
+      }
+    ],
+    "9.1 Actualizar `app/utils/llm.py`: añadir `LLMResponse` y definiciones de herramientas": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350288178
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352649292
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352737352
+      }
+    ],
+    "9.2 Actualizar `LLMClient.generate()` para retornar `LLMResponse`": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350288310
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352741424
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785353557406
+      }
+    ],
+    "10.1 Crear `app/tools/browser.py` con la clase `BrowserTool`": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350288439
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352744404
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785353560863
+      }
+    ],
+    "11.1 Crear `app/tools/youtube.py` con la clase `YouTubeTool`": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350288574
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352747572
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785353563890
+      }
+    ],
+    "12.1 Crear `app/tools/whatsapp.py` con la clase `WhatsAppTool`": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350288711
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352751148
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785353568020
+      }
+    ],
+    "13.1 Crear `app/utils/tool_dispatcher.py` con la clase `ToolDispatcher`": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350288845
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785353573340
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354051638
+      }
+    ],
+    "14. Checkpoint — Verificar herramientas y dispatcher": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350288974
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354057049
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354171123
+      }
+    ],
+    "15.1 Actualizar `main.py` para instanciar `ToolDispatcher` e integrar la bifurcación post-LLM": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350289145
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354174803
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354270417
+      }
+    ],
+    "16. Checkpoint final — Verificar sistema completo con herramientas": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350289274
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354276543
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354370575
+      }
+    ],
+    "17.1 Revisar todas las rutas de archivo en el código fuente y reemplazar strings hardcodeados por `pathlib.Path`": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350289408
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354375240
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354482962
+      }
+    ],
+    "17.2 Añadir detección de VLC en YouTubeTool": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350289532
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354378974
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354486563
+      }
+    ],
+    "17.3 Documentar instalación por plataforma en `workflow.md` del steering": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350289670
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354383431
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354491388
+      }
+    ],
+    "2. Implementar el módulo LLMClient": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785350869126
+      }
+    ],
+    "4. Refactorizar `main.py` como Pipeline_Controller": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785351573753
+      }
+    ],
+    "6. Conectar `main.py` con el punto de entrada": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352276450
+      },
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785352366488
+      }
+    ],
+    "9. Implementar LLMClient con soporte de function calling": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785353557634
+      }
+    ],
+    "10. Implementar BrowserTool": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785353561025
+      }
+    ],
+    "11. Implementar YouTubeTool": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785353564001
+      }
+    ],
+    "12. Implementar WhatsAppTool": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785353568137
+      }
+    ],
+    "13. Implementar ToolDispatcher": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354051794
+      }
+    ],
+    "15. Integrar ToolDispatcher en Pipeline_Controller": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354270593
+      }
+    ],
+    "17. Validar compatibilidad multiplataforma": [
+      {
+        "executionId": "57a578a4-0af6-4586-900c-e8ac0a4c3b4c",
+        "chatSessionId": "sess_c93ed6ec-c549-46fc-b595-3ccf92e23324",
+        "timestamp": 1785354491610
+      }
+    ]
+  }
+}
