@@ -1,5 +1,7 @@
 # Bot Exercise
 
+---
+
 ## Overview
 This project is a bot exercise implementation designed to demonstrate core bot functionality and best practices.
 
