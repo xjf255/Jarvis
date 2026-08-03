@@ -100,6 +100,7 @@ def run_pipeline():
                                 llm_response.tool_name, llm_response.tool_args or {}
                             )
 
+                        # print(f"🔧 Respuesta de la herramienta: {respuesta}")
                         print(f"🤖 Jarvis: {respuesta}")
                         synthesize_text_to_file(
                             respuesta,
