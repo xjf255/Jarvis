@@ -1,0 +1,201 @@
+{
+  "Monday": [
+    {
+      "exercise": "Remo bajo mesa o marco de puerta",
+      "target_muscle": "Espalda alta y Dorsales",
+      "sets": 4,
+      "reps": "10-12",
+      "rest": "90 seconds"
+    },
+    {
+      "exercise": "Flexiones declinadas (Pies elevados)",
+      "target_muscle": "Pectoral superior y Hombros",
+      "sets": 4,
+      "reps": "12-15",
+      "rest": "90 seconds"
+    },
+    {
+      "exercise": "Flexiones Pike (En V invertida)",
+      "target_muscle": "Deltoides anterior y lateral",
+      "sets": 3,
+      "reps": "8-10",
+      "rest": "90 seconds"
+    },
+    {
+      "exercise": "Nadas / Superman con pausa de 2s",
+      "target_muscle": "Deltoides posterior y Lumbales",
+      "sets": 3,
+      "reps": "12-15",
+      "rest": "60 seconds"
+    },
+    {
+      "exercise": "Flexiones Diamante",
+      "target_muscle": "Tríceps",
+      "sets": 3,
+      "reps": "10-12",
+      "rest": "60 seconds"
+    }
+  ],
+  "Tuesday": [
+    {
+      "exercise": "Sentadillas Búlgaras (Pie en silla)",
+      "target_muscle": "Cuádriceps y Glúteos",
+      "sets": 4,
+      "reps": "10-12 por pierna",
+      "rest": "90 seconds"
+    },
+    {
+      "exercise": "Puente de Glúteo a una pierna",
+      "target_muscle": "Isquiotibiales y Glúteo",
+      "sets": 3,
+      "reps": "12-15 por pierna",
+      "rest": "60 seconds"
+    },
+    {
+      "exercise": "Zancadas / Lunges alternadas",
+      "target_muscle": "Pierna completa",
+      "sets": 3,
+      "reps": "12 por pierna",
+      "rest": "60 seconds"
+    },
+    {
+      "exercise": "Elevación de Gemelos a una pierna",
+      "target_muscle": "Pantorrillas",
+      "sets": 4,
+      "reps": "15-20 por pierna",
+      "rest": "45 seconds"
+    },
+    {
+      "exercise": "Plancha Abdominal Isometrica",
+      "target_muscle": "Core / Abdomen",
+      "sets": 3,
+      "reps": "45-60 seconds",
+      "rest": "60 seconds"
+    },
+    {
+      "exercise": "Elevaciones de Piernas tumbado (Leg Raises)",
+      "target_muscle": "Abdomen inferior",
+      "sets": 3,
+      "reps": "12-15",
+      "rest": "60 seconds"
+    }
+  ],
+  "Wednesday": [
+    {
+      "exercise": "Remo bajo mesa o marco de puerta",
+      "target_muscle": "Espalda alta y Dorsales",
+      "sets": 4,
+      "reps": "10-12",
+      "rest": "90 seconds"
+    },
+    {
+      "exercise": "Flexiones Estándar o Abiertas",
+      "target_muscle": "Pectoral mayor",
+      "sets": 4,
+      "reps": "12-15",
+      "rest": "90 seconds"
+    },
+    {
+      "exercise": "Flexiones Pike (En V invertida)",
+      "target_muscle": "Deltoides anterior y lateral",
+      "sets": 3,
+      "reps": "8-10",
+      "rest": "90 seconds"
+    },
+    {
+      "exercise": "Reverse Flyes boca abajo (Deltoides posterior)",
+      "target_muscle": "Deltoides posterior",
+      "sets": 3,
+      "reps": "12-15",
+      "rest": "60 seconds"
+    },
+    {
+      "exercise": "Flexiones Cerradas / Tríceps",
+      "target_muscle": "Tríceps",
+      "sets": 3,
+      "reps": "10-12",
+      "rest": "60 seconds"
+    }
+  ],
+  "Thursday": [
+    {
+      "exercise": "Sentadillas Búlgaras (Pie en silla)",
+      "target_muscle": "Cuádriceps y Glúteos",
+      "sets": 4,
+      "reps": "10-12 por pierna",
+      "rest": "90 seconds"
+    },
+    {
+      "exercise": "Puente de Glúteo a una pierna",
+      "target_muscle": "Isquiotibiales y Glúteo",
+      "sets": 3,
+      "reps": "12-15 por pierna",
+      "rest": "60 seconds"
+    },
+    {
+      "exercise": "Zancadas / Lunges alternadas",
+      "target_muscle": "Pierna completa",
+      "sets": 3,
+      "reps": "12 por pierna",
+      "rest": "60 seconds"
+    },
+    {
+      "exercise": "Elevación de Gemelos a una pierna",
+      "target_muscle": "Pantorrillas",
+      "sets": 4,
+      "reps": "15-20 por pierna",
+      "rest": "45 seconds"
+    },
+    {
+      "exercise": "Hollow Hold (Cuerpo en C)",
+      "target_muscle": "Core / Abdomen",
+      "sets": 3,
+      "reps": "30-45 seconds",
+      "rest": "60 seconds"
+    },
+    {
+      "exercise": "Crunches / Encogimientos abdominales",
+      "target_muscle": "Abdomen superior",
+      "sets": 3,
+      "reps": "15-20",
+      "rest": "60 seconds"
+    }
+  ],
+  "Friday": [
+    {
+      "exercise": "Remo bajo mesa o marco de puerta",
+      "target_muscle": "Espalda alta y Dorsales",
+      "sets": 4,
+      "reps": "10-12",
+      "rest": "90 seconds"
+    },
+    {
+      "exercise": "Flexiones declinadas (Pies elevados)",
+      "target_muscle": "Pectoral superior y Hombros",
+      "sets": 4,
+      "reps": "12-15",
+      "rest": "90 seconds"
+    },
+    {
+      "exercise": "Flexiones Pike (En V invertida)",
+      "target_muscle": "Deltoides anterior y lateral",
+      "sets": 3,
+      "reps": "8-10",
+      "rest": "90 seconds"
+    },
+    {
+      "exercise": "Nadas / Superman con pausa de 2s",
+      "target_muscle": "Deltoides posterior y Lumbales",
+      "sets": 3,
+      "reps": "12-15",
+      "rest": "60 seconds"
+    },
+    {
+      "exercise": "Flexiones Diamante",
+      "target_muscle": "Tríceps",
+      "sets": 3,
+      "reps": "10-12",
+      "rest": "60 seconds"
+    }
+  ]
+}
